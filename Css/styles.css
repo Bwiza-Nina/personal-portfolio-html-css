@@ -28,6 +28,7 @@ body{
     width: 50px;
     text-align: center;
     line-height: 50px;
+    display: none;
     transform: translateX(-50%);
 }
 .sidebar ul li{
@@ -94,7 +95,7 @@ body{
 }
 .person{
     width: 30%;
-    margin-left: 40%;
+    margin-left: 50%;
     position: absolute;
     top: 0;
 }
@@ -104,6 +105,7 @@ body{
     font-family: 'Inconsolata', monospace;
     font-family: 'Poppins', sans-serif;
     opacity: 0.6;
+    letter-spacing: 0.1em;
     /* font-family: 'Ubuntu', sans-serif; */
 }
 .scroll{
@@ -123,4 +125,44 @@ body{
     text-decoration: underline #9296FF 3px;
     transition: all 0.5s ease;
 
+}
+.about-me{
+    margin-left: 14%;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Poppins', sans-serif;
+}
+.about-me p.title{
+    color: #9296FF;
+    text-transform: uppercase;
+    margin-top: 10%;
+    font-weight: bolder;
+}
+.heading{
+    font-weight: bolder;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+}
+.about-me .text{
+    opacity: 0.6;
+    letter-spacing: 0.1em;
+    margin-left: 30%;
+    position: absolute;
+    top: 90%;
+}
+.instagram p{
+    opacity: 0.6;
+    text-transform: uppercase;
+    margin-top: 10%;
+    font-weight: bolder;
+}
+.instagram p:hover{
+    text-decoration: underline #9296FF 5px;
+}
+.instagram i{
+    font-size: 2em;
+    margin-top: 2%;
+}
+.instagram p>a{
+    color: #9296FF;
+    text-decoration: none;
 }
