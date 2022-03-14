@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="../Css/styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Poppins:wght@300&family=Ubuntu&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Ubuntu&display=swap');
+    </style>
+
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PERSONAL PORTFOLIO</title>
@@ -24,5 +31,31 @@
             </li>
         </ul>
     </div>
+
+    <div class="home_content">
+        <div class="landing-section">
+            <img src="../Assets/Images/17-175396_transparent-waving-hand-emoji-hd-png-download-removebg-preview.png" class="wave" alt="wave a hand">
+            <p class="landing-text">Hello, it's me<br><span>Bwiza Cyndy Nina</span></p>
+            <img src="../Assets/Images/nina.png" class="person" alt="bwiza-nina">
+            <p class="short-description">An enthusiastic product designer currently<br>
+                shaping the future of software development by<br>
+                designing smooth user-interfaces that promote<br>
+                user interaction with information and data.<br>
+                While traveling around the world.</p>
+        </div>
+
+        <div>
+            <p class="scroll"><a href="#">Scroll for more</a></p>
+        </div>
+    </div>
+
+    <script>
+        let button = document.querySelector("#hamburger");
+        let sidebar = document.querySelector(".sidebar");
+
+        button.onClick = function(){
+            sidebar.classList.toggle("active");
+        }
+    </script>
 </body>
 </html>
