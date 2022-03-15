@@ -126,6 +126,46 @@ body{
     transition: all 0.5s ease;
 
 }
+.skillset{
+    margin-left: 14%;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Poppins', sans-serif; 
+}
+.skillset p.title{
+    color: #9296FF;
+    text-transform: uppercase;
+    margin-top: 10%;
+    font-weight: bolder;
+}
+.heading{
+    font-weight: bolder;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+}
+.skillset .text{
+    opacity: 0.6;
+    letter-spacing: 0.1em;
+    margin-left: 30%;
+    position: absolute;
+    top: 90%;
+}
+.process p{
+    opacity: 0.6;
+    text-transform: uppercase;
+    margin-top: 10%;
+    font-weight: bolder;
+}
+.process p:hover{
+    text-decoration: underline #9296FF 5px;
+}
+.process i{
+    font-size: 2em;
+    margin-top: 2%;
+}
+.process p>a{
+    color: #9296FF;
+    text-decoration: none;
+}
 .about-me{
     margin-left: 14%;
     font-family: 'Inconsolata', monospace;
@@ -142,13 +182,14 @@ body{
     font-size: 1.5em;
     letter-spacing: 0.1em;
 }
-.about-me .text{
+.about-me .text1{
     opacity: 0.6;
     letter-spacing: 0.1em;
     margin-left: 30%;
     position: absolute;
-    top: 90%;
+    top: 145%;
 }
+
 .instagram p{
     opacity: 0.6;
     text-transform: uppercase;
