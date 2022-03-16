@@ -174,7 +174,7 @@ body{
 .about-me p.title{
     color: #9296FF;
     text-transform: uppercase;
-    margin-top: 35%;
+    margin-top: 25%;
     font-weight: bolder;
 }
 .heading{
@@ -187,13 +187,14 @@ body{
     letter-spacing: 0.1em;
     margin-left: 30%;
     position: absolute;
-    top: 200%;
+    top: 100%;
+    margin-top: 85%;
 }
 
 .instagram p{
     opacity: 0.6;
     text-transform: uppercase;
-    margin-top: 10%;
+    margin-top: 8%;
     font-weight: bolder;
 }
 .instagram p:hover{
@@ -207,7 +208,7 @@ body{
     color: #9296FF;
     text-decoration: none;
 }
-.recent-projects{
+.recent-projects, .career-paths{
     margin-left: 14%;
     font-family: 'Inconsolata', monospace;
     font-family: 'Poppins', sans-serif;
@@ -215,26 +216,59 @@ body{
     top: 20%;
 }
 .recent-projects img{
+    margin-top: 2%;
     width: 30%;
     border-radius: 10px;
 }
-.recent-projects .title{
+.recent-projects .title, .career-paths h1{
     font-weight: bolder;
     text-transform: uppercase;
     /* display: inline; */
 }
-.recent-projects p>i{
+.recent-projects p>i, .career-paths h1>i{
     color: #9296FF;
     font-size: 30px;
 }
 .recent-projects .image1{
-    padding-left: 2%;
+    /* padding-left: 2%; */
     padding-right: 2%;
-    width: 32.5%;
+    width: 28%;
+    border-radius: 20px;
 }
 .recent-projects .image2{
     width: 27%;
+    padding-right: 2%;
 }
 .recent-projects .image3{
+    width: 23%;
+    position: relative;
+    top: 90%;
+}
+.career-paths{
+    margin-top: 5%;
+}
+.career-paths h1, .github{
+    display: inline;
+}
+.github{
     float: right;
+    margin-right: 25%;
+}
+.github i{
+    padding-left: 0.5em;
+    color: #9296FF;
+    font-size: 20px;
+}
+.github:hover{
+    text-decoration: underline #9296FF 5px;
+    transition: all 0.2s ease;
+}
+.career1, .career2, .career3{
+    display: inline;
+}
+.career-paths .work{
+    opacity: 0.6;
+}
+.career-paths .date{
+    opacity: 0.3;
 }
